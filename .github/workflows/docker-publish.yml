@@ -6,6 +6,7 @@ name: Docker Build and Publish
 # documentation.
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '21 5 * * 0'
   push:
